@@ -25,8 +25,8 @@ GameObject:
   - component: {fileID: 114072908665023802}
   - component: {fileID: 114321825670996500}
   m_Layer: 0
-  m_Name: Asteroid
-  m_TagString: Untagged
+  m_Name: Asteroid01
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
+  scoreValue: 10
 --- !u!114 &114321825670996500
 MonoBehaviour:
   m_ObjectHideFlags: 1
